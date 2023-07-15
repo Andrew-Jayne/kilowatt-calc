@@ -2,6 +2,7 @@
 charger_type = str(input("How Does the Charge charge for Power?: By kWh or By Time ").lower())
 lap = 0
 is_valid = False
+
 while is_valid != True:
     if charger_type not in ("time","kwh","free"):
         lap += 1
